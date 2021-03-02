@@ -9,36 +9,39 @@ Attributes
 
 -hashedPassword : String
 
+-details : UserDetails
+
 -goals : Goals[]
 
--details : UserDetails
+-customFoods : FoodItem[]
 
 
 Methods
 -------
-setAccountInfo(int username, int email, int password) : void
++setAccountInfo(int username, int email, int password)
 
-setAge(int num) : void
++setAge(int)
 
-setHeight(int num) : void
++setHeight(int)
 
-setWeight(int num) : void
++setWeight(int)
 
-setGender(boolean bool) : void
++setGender(boolean)
 
-setLastDrink(int num) : void
++setLastDrink(int)
 
-getAge() : int
++getAge() : int
 
-getHeight() : int
++getHeight() : int
 
-getWeight() : int
++getWeight() : int
 
-getLastDrinkTime() : int
++getLastDrinkTime() : int
 
-getGender(boolean bool) : boolean
++getGender(boolean) : boolean
 
-get_dailyCals() : int
++getDailyCals() : int
+
 
 UserDetails
 ===========
@@ -70,15 +73,15 @@ Attributes
 
 Methods
 -------
-+calcBMI(User user) : int
++calcBMI(User) : int
 
-+calcDailyCals(User user) : int
++calcDailyCals(User) : int
 
-+calcCalorieDelta(User user) : int
++calcCalorieDelta(User) : int
 
-+isThirsty(User user) : boolean
++isThirsty(User) : boolean
 
-+onTrack(User user, Goal goal) : boolean
++onTrack(User, Goal) : boolean
 
 
 Goal
@@ -86,20 +89,34 @@ Goal
 
 Attributes
 ----------
--desiredWeight
--currrentWeigth
--goalType
--caloricLimit
+-desiredWeight : int
+
+-currrentWeigth : int
+
+-goalType : int
+
+-caloricLimit : int
 
 
 Methods
 -------
--
+
 
 FoodItem
 ========
 
 Attributes
 ----------
--
+-totalCals : int
+
+-carbsMultiplier : double
+
+-protiensMultiplier : double
+
+-fatsMultiplier : double
+
+
+Methods
+-------
++setFoodDetails(int, double, double, double)
 
