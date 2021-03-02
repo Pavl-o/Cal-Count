@@ -15,6 +15,8 @@ Attributes
 
 -customFoods : FoodItem[]
 
+-customExercices : Exercises[]
+
 
 Methods
 -------
@@ -36,7 +38,7 @@ Methods
 
 +getWeight() : int
 
-+getGender() : boolean
++getGender() : int
 
 +getLastDrinkTime() : int
 
@@ -54,7 +56,7 @@ Attributes
 
 -age : int
 
--gender : boolean
+-gender : int
 
 -lastDrinkTime : int
 
