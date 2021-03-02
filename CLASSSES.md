@@ -28,7 +28,7 @@ Methods
 
 +setGender(boolean)
 
-+setLastDrink(int)
++setLastDrinkTime(int)
 
 +getAge() : int
 
@@ -36,9 +36,9 @@ Methods
 
 +getWeight() : int
 
-+getLastDrinkTime() : int
-
 +getGender() : boolean
+
++getLastDrinkTime() : int
 
 +getDailyCals() : int
 
@@ -134,6 +134,4 @@ Attributes
 
 Methods
 -------
-
-
 
