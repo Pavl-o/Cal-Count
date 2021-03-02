@@ -18,7 +18,7 @@ Attributes
 
 Methods
 -------
-+setAccountInfo(int username, int email, int password)
++setAccountInfo(String, String, String)
 
 +setAge(int)
 
@@ -38,7 +38,7 @@ Methods
 
 +getLastDrinkTime() : int
 
-+getGender(boolean) : boolean
++getGender() : boolean
 
 +getDailyCals() : int
 
@@ -119,4 +119,21 @@ Attributes
 Methods
 -------
 +setFoodDetails(int, double, double, double)
+
++getCalories() : int
+
+
+Exercise
+========
+
+Attributes
+----------
+-calsBurned : int
+
+-exerciseName : String
+
+Methods
+-------
+
+
 
